@@ -5,7 +5,7 @@
 - [VMware ESXi 7.0 U3 SLIC 2.6 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u3-slic/)
 - [VMware ESXi 7.0 U2 SLIC 2.6 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u2-slic/)
 - [VMware ESXi 7.0 U1 SLIC 2.5 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u1-slic/)
-- [VMware ESXi 7.0 SLIC 2.5 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u1-slic/)
+- [VMware ESXi 7.0 SLIC 2.5 & Unlocker](https://sysin.org/blog/vmware-esxi-7-slic/)
 
 ## 1. Introduction
 

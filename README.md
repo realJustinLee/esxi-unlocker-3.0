@@ -1,4 +1,11 @@
-# macOS Unlocker V3.0 for VMware ESXi
+# macOS Unlocker v3.0 for VMware ESXi
+
+## 0. Download ESXi 7.0 (integrated Unlocker and SLIC)
+
+- [VMware ESXi 7.0 U3 SLIC 2.6 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u3-slic/)
+- [VMware ESXi 7.0 U2 SLIC 2.6 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u2-slic/)
+- [VMware ESXi 7.0 U1 SLIC 2.5 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u1-slic/)
+- [VMware ESXi 7.0 SLIC 2.5 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u1-slic/)
 
 ## 1. Introduction
 
@@ -11,14 +18,9 @@ The patch code carries out the following modifications dependent on the product 
 
 The code is written in Python as it makes the Unlocker easier to run and maintain on ESXi.
 
-+-----------------------------------------------------------------------------+
-| IMPORTANT:                                                                  |
-| ==========                                                                  |
-|                                                                             |
-| Always uninstall the previous version of the Unlocker before using a new    |
-| version. Failure to do this could render VMware unusable.                   |
-|                                                                             |
-+-----------------------------------------------------------------------------+
+> IMPORTANT:
+>
+> Always uninstall the previous version of the Unlocker before using a new version. Failure to do this could render VMware unusable.
 
 ## 2. Installation
 
@@ -76,14 +78,14 @@ Enter the directory and build:
 If everything went correctly the ouput should be:
 
     ESXi-Build for macOS
-    
+
     Timestamping files...
-    
+
     Creating unlocker.tgz...
     etc/
     etc/rc.local.d/
     etc/rc.local.d/unlocker.py
-    
+
     Creating esxi-unlocker-300.tgz...
     unlocker.tgz
     esxi-install.sh
@@ -101,10 +103,10 @@ Thanks also to Sam B for finding the solution for ESXi 6 and helping me with deb
 
 ## 7. History
 
-26/09/2018 3.0.0 - First release
-01/05/2020 3.0.1 - Fix for ESXi 7.0
-10/18/2020 3.0.2 - Fix for ESXi 7.0 U1 (7.0.1)
-10/17/2020 3.0.3 - Fix for ESXi 7.0 U3 (7.0.3)
+- 26/09/2018 3.0.0 - First release
+- 01/05/2020 3.0.1 - Fix for ESXi 7.0
+- 10/18/2020 3.0.2 - Fix for ESXi 7.0 U1 (7.0.1)
+- 10/17/2020 3.0.3 - Fix for ESXi 7.0 U3 (7.0.3)
 
 (c) 2011-2018 Dave Parsons
 Powered by sysin.org

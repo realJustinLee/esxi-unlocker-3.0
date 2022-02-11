@@ -1,6 +1,6 @@
 # macOS Unlocker v3.0 for VMware ESXi
 
-## 0. Download ESXi 7.0 (integrated Unlocker and SLIC)
+## Download ESXi 7.0 (integrated Unlocker and SLIC)
 
 - [VMware ESXi 7.0 U3 SLIC 2.6 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u3-slic/)
 - [VMware ESXi 7.0 U2 SLIC 2.6 & Unlocker](https://sysin.org/blog/vmware-esxi-7-u2-slic/)
